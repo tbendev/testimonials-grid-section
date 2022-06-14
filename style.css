@@ -28,7 +28,7 @@ body {
 }
 .grid-container {
   padding: 20px;
-  margin: 20px;
+  margin: 200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -91,6 +91,7 @@ body {
 }
 .grid__content-white {
   color: grey;
+  box-shadow: 0px 0px 50px -18px #000000;
 }
 .grid__content-title {
   font-weight: 600;
